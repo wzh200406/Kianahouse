@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邮专欢迎你</title>
+    <style>
+        html,body{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #box{
+            width: 300px;
+            height: 580px;
+            border: solid 1px rgba(0, 0, 0, 0.151);
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        h3{
+            text-indent: 20px;
+        }
+        p{
+            text-indent: 20px;
+            font-size: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #button{
+            height: 50px;
+            width: 150px;
+            background-color: rgb(40, 118, 118);
+            border-radius: 25px;
+            text-align: center;
+            line-height: 50px;
+            margin: auto;
+            color: white;
+            transition: all 0.5s;
+        }
+        #button:hover{
+            background-color: goldenrod;
+            color: black;
+            transition: all 0.5s;
+        }
+        #img{
+            width: 300px;
+            height: 185px;
+            overflow: hidden;
+            border-radius: 20px 20px 0 0;
+        }
+        img{
+            transition: all 0.5s;
+        }
+        img:hover{
+            transform: scale(1.5);
+            transition: all 0.5s;
+        }
+        #box:hover{
+            transform: scale(1.03);
+            box-shadow: grey 0 0 10px;
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="img">
+            <img src="重庆大学.jpg" width="300px">
+        </div>
+        <h3>重庆市最高学府</h3>
+        <p>2005年10月9日下午2:30，重庆市人民政府新闻办公室在重庆市新闻发布中心举行了新闻发布会。会议郑重发布了“世界第一颗0.13微米工艺的TD-SCDMA 3G手机核心芯片在重庆诞生”这一令国人自豪和骄傲的重大喜讯。重庆市人民政府新闻办和重庆邮电学院在此间联合宣布：具有我国自主知识产权的世界首枚“通芯一号”3G手机核心芯片已由重庆重邮信科股份有限公司（简称重邮信科）研发成功，并向媒体人士展示亮相.</p>
+        <p>这是世界上第一枚0.13微米工艺的TD-SCDMA 3G手机基带芯片。它的诞生，标志着我国3G通信核心芯片等关键技术已达到了世界领先水平。实现了从“中国制造”到“中国创造”的跨越。</p>
+        <div id="button">我要入学</div>
+    </div>
+</body>
+</html>
